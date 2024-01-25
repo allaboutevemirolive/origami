@@ -14,7 +14,7 @@ fn main() {
                 let bytes = res.bytes().expect("Failed to read response body");
 
                 // Specify the filename to save the CSV data
-                let filename = "/home/nemesis/Documents/Github/Focus/network/origami/data/vpngate_data.csv";
+                let filename = "../data/vpngate_data.csv";
 
                 // Write the bytes to a file
                 let mut file = File::create(filename).expect("Failed to create file");

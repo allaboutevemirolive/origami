@@ -4,9 +4,9 @@ use std::{
 };
 
 fn main() {
-    let input_path = "/home/nemesis/Documents/Github/Focus/network/origami/data/vpngate_data.csv";
+    let input_path = "../data/vpngate_data.csv";
 
-    let output = "/home/nemesis/Documents/Github/Focus/network/origami/data/output.csv";
+    let output = "../data/output.csv";
 
     let mut output_writer: Box<dyn Write> = Box::new(BufWriter::new(File::create(output).unwrap()));
 
